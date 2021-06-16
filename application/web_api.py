@@ -218,7 +218,7 @@ def compra():
 
         
 if __name__ == '__main__':
-    #app.run(host='172.168.0.5',port=5000,debug=True)
+    #app.run(host='172.30.0.5',port=5000,debug=True)
     sess = Session()
     sess.init_app(app)
     app.run(debug=True)

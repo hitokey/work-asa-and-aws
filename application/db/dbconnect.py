@@ -10,7 +10,7 @@ class ClientDB():
         self.pesquisa = {}
 
     def connect(self):
-        return psycopg2.connect("dbname=aero user=postgres password=88334175")
+        return psycopg2.connect("dbname=aero user=postgres password=8833xxxx")
 
     #def disconnect(self):
     #    self.
